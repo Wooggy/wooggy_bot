@@ -1,12 +1,12 @@
 # Wooggy Bot
 ![image info](logo.png)
 
-####This telegram bot shows hotel room offers from all over the world.
+#### This telegram bot shows hotel room offers from all over the world.
 
 ### Commands:
-####/lowprice 🔑 Top cheapest hotels in the city
-####/highprice 💎 Top most expensive hotels in the city
-####/bestdeal 🎯 Detailed selection
+#### /lowprice 🔑 Top cheapest hotels in the city
+#### /highprice 💎 Top most expensive hotels in the city
+#### /bestdeal 🎯 Detailed selection
 ## Get Started
 
 #### Clone the repository.
