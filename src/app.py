@@ -13,11 +13,11 @@ from hotels import hotels
 
 API_TOKEN = get_from_env('API_TOKEN')
 secret = ''.join([choice(ascii_lowercase) for _ in range(10)])
-url = f"<your url>/{secret}"
+URL = f"{get_from_env('URL')}/{secret}"
 
 bot = telebot.TeleBot(API_TOKEN, threaded=False)
 bot.remove_webhook()
-bot.set_webhook(url=url)
+bot.set_webhook(url=URL)
 
 app = Flask(__name__)
 
